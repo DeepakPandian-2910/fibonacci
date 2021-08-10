@@ -1,6 +1,6 @@
 n = int(input("enter the nth term: "))
 def fibonacci(n):
-    if(n < 1):
+    if(n < 0):
         print("incorrect input")
     elif(n == 0):
         return 0
